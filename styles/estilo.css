@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(178,34,34);
+    color: white;
+    font-family: poppinsbold;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: -15px;
+}
+
+#lgo{
+    
+    width: 50px;
+    margin-top: 10px;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+#nmr-socios{
+    color: black;
+    font-size: 22px;
+    margin-left: 200px; /* Adiciona um espaço à esquerda do parágrafo */
+
+}
+
+#nmr-real{
+   color: rgb(178,34,34);
+   font-size: 24px;
+   font-weight: bold;
+   
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+#cadastrese-btn {
+    
+    color: white;
+    border: 2px solid rgb(178,34,34);
+    border-radius: 12px;
+    background-color: rgb(178,34,34);
+    margin-right: 50px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+    transition: 0.3s all;
+}
+
+
+main{
+   
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+#seja-st{
+    color: rgb(238, 217, 164);
+    font-size: 80px;
+    line-height: 80px; /* Diminuir espaço entre as linhas */
+    font-family: Marker Felt, fantasy	;
+    font-style: italic; /* Define o estilo de fonte para itálico */
+    margin-top: 50px; 
+    max-width: 500px;
+    letter-spacing: 1px; /* Define um valor negativo para reduzir o espaço entre as letras */
+
+}
+
+#paragrafo-garanta{
+    margin-top: -50px;
+    line-height: 20px; /* Diminuir espaço entre as linhas */
+}
+
+
+
+
+
+#cadastro{
+    display: flex; /*todos elementos ficarem do mesmo tamanho*/
+    flex-direction: column; /*todos elementos ficarem um ao lado do outro*/
+    width: 70%; 
+    
+}
+
+form [type="submit"]{
+    height: 20px;
+    width: 110px;
+    background-color: white;
+    color: rgb(178,34,34);
+    font-weight: bold;
+    padding: 20px;
+    text-align:justify;
+    
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    
+    margin-left: 400px;
+    margin-top: 20px;
+    height: 20px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+#preencha{
+    margin-left: 400px;
+    font-family: poppinsbold;
+    line-height: 25px;
+}
+
+
+
