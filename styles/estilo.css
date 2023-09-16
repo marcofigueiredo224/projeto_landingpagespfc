@@ -7,6 +7,8 @@ body{
     background-image: url("/components/img/Captura\ de\ tela\ 2023-09-15\ 221921.png");
     background-size: cover; /* Isso ajustará a imagem para cobrir toda a área do elemento pai */
     background-repeat: no-repeat; /* Isso evita que a imagem de fundo se repita */
+    height: 100vh; /* Isso define a altura igual à altura da janela do navegador */
+    overflow: hidden; /* Isso oculta qualquer conteúdo que vá além da altura especificada */
 
 }
 
