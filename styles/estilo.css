@@ -95,7 +95,7 @@ form{
     flex-direction: column; /*todos elementos ficarem um ao lado do outro*/
     width: 70%; 
     position: relative;
-    top: -80px;
+    top: -99px;
    
 
 }
@@ -105,11 +105,12 @@ form{
 
 form [type="submit"]{
     height: 20px;
-    width: 150px;
+    width: 129px;
     background-color: rgb(236, 236, 236);
     color: rgb(178,34,34);
     font-weight: bold;
-    padding: 20px;
+    padding: 30px;
+   
     
 }
 
@@ -120,7 +121,7 @@ form [type="submit"]:hover{
 
 input{    
     margin-left: 400px;
-    margin-top: 15px;
+    margin-top: 10px;
     height: 20px;
     width: 200px;
     padding: 15px;
