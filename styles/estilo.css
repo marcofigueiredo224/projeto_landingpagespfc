@@ -78,11 +78,11 @@ main{
 
 #seja-st{
     color: rgb(178,34,34);
-    font-size: 80px;
+    font-size: 100px;
     line-height: 80px; /* Diminuir espaço entre as linhas */
     font-family: Marker Felt, fantasy	;
     font-style: italic; /* Define o estilo de fonte para itálico */
-    margin-top: -50px; 
+    margin-top: 80px; 
     max-width: 500px;
     letter-spacing: 1px; /* Define um valor negativo para reduzir o espaço entre as letras */
     margin-right: 75px;
@@ -95,13 +95,11 @@ form{
     flex-direction: column; /*todos elementos ficarem um ao lado do outro*/
     width: 70%; 
     position: relative;
-    top: -99px;
-   
+    top: 250px;
+    
 
 }
-#cadastro{
-    margin-right: -750px;
-}
+
 
 form [type="submit"]{
     height: 20px;
@@ -120,7 +118,7 @@ form [type="submit"]:hover{
 
 
 input{    
-    margin-left: 400px;
+    margin-left: -500px;
     margin-top: 10px;
     height: 20px;
     width: 200px;
