@@ -7,8 +7,7 @@ body{
     background-image: url("/components/img/Captura\ de\ tela\ 2023-09-15\ 221921.png");
     background-size: cover; /* Isso ajustará a imagem para cobrir toda a área do elemento pai */
     background-repeat: no-repeat; /* Isso evita que a imagem de fundo se repita */
-    height: 100vh; /* Isso define a altura igual à altura da janela do navegador */
-    overflow: hidden; /* Isso oculta qualquer conteúdo que vá além da altura especificada */
+
 }
 
 header{
@@ -94,10 +93,13 @@ form{
     flex-direction: column; /*todos elementos ficarem um ao lado do outro*/
     width: 70%; 
     position: relative;
-    top: -90px;
+    top: -80px;
+   
 
 }
-
+#cadastro{
+    margin-right: -750px;
+}
 
 form [type="submit"]{
     height: 20px;

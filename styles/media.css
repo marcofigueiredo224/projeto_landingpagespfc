@@ -60,10 +60,10 @@
     }
 
 
-    form{
+    #formu{
         align-self: center;
-        top: -20px;
-        margin-left: -345px;
+        margin-top: 60px;
+        margin-left: -1100px;
     }
 
     form [type="submit"]{
