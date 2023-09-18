@@ -1,0 +1,51 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+        
+
+    }
+    main{
+        flex-direction: column;
+    }
+    #lgo{
+        margin-left: 18px;
+    }
+    #nmr-socios{
+        margin-left: 5px;
+        white-space: nowrap;
+        font-size: 18px;
+    }
+    #seja-st{
+        font-size: 58px;
+        line-height: 50px;
+        margin-top: 10px;
+        margin-left: -65px;
+        white-space: nowrap;
+    }
+
+    #menu{
+        margin-left: -6px;
+    }
+    #cadastro{
+        margin-top: -270px;
+
+    
+    }
+
+
+    img{
+        margin-top: 70px;
+    }
+    input{    
+        margin-left: -50px;
+        margin-top: 10px;
+        height: 20px;
+        width: 200px;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+        font-size: 15px;
+         
+    }
+  
+}
