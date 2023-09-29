@@ -32,7 +32,6 @@ header{
 #nmr-socios{
     color: black;
     font-size: 22px;
-    margin-left: 200px; /* Adiciona um espaço à esquerda do parágrafo */
 
 }
 
@@ -55,7 +54,7 @@ li{
     border: 2px solid rgb(178,34,34);
     border-radius: 12px;
     background-color: rgb(178,34,34);
-    margin-right: 50px;
+
 
 }
 
@@ -69,74 +68,52 @@ a:hover{
 }
 
 
-main{
-   
-    display: flex;
-    flex-direction: row;
-    margin-top: 90px;
-    margin-left: 100px;
-}
-
 #seja-st{
     color: rgb(178,34,34);
     font-size: 100px;
     line-height: 80px; /* Diminuir espaço entre as linhas */
     font-family: Marker Felt, fantasy	;
-    font-style: italic; /* Define o estilo de fonte para itálico */
-    margin-top: 80px; 
+    font-style: italic; /* Define o estilo de fonte para itálico */ 
     max-width: 500px;
     letter-spacing: 1px; /* Define um valor negativo para reduzir o espaço entre as letras */
-    margin-right: 75px;
     -webkit-text-stroke: 1px #ffffff; /* Largura e cor da borda */
-    
-   
 }
 
 
-form{
-    display: flex; /*todos elementos ficarem do mesmo tamanho*/
-    flex-direction: column; /*todos elementos ficarem um ao lado do outro*/
-    width: 70%; 
-    position: relative;
-    top: 250px;
-    
+.titulo-eformu{
+    margin-top: 200px;
+    margin-left: 150px;
 
 }
 
 
-form [type="submit"]{
-    height: 20px;
-    width: 129px;
-    background-color: rgb(236, 236, 236);
+
+.formu_btn{
+    border-radius: 10px;
+    border: none;
+    padding: 1em;
+    font-family: "poppinsbold";
+    text-transform: uppercase;
     color: rgb(178,34,34);
-    font-weight: bold;
-    padding: 20px 20px;
-    min-width: 120px; 
-    max-width: 200px;
-    
-   
-    
+
 }
 
-form [type="submit"]:hover{
-    cursor: pointer;
-}
-
-
-input{    
-    margin-left: -500px;
-    margin-top: 10px;
+.formu-texto{    
     height: 20px;
-    width: 200px;
-    padding: 15px;
+    width: 250px;
+    padding: 12px;
     border-radius: 10px;
     border: none;
     font-size: 15px;
+    display: flex; /*todos elementos ficarem do mesmo tamanho*/
+    flex-direction: column; 
+    margin-bottom: 15px;
+     
 }
 
-
-
-
+.cadastro{
+    
+}
 
 
 
