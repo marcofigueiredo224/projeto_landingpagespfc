@@ -1,41 +1,46 @@
 @media screen and (max-width: 760px){
+    body{
+        background-image: url(../components/img/ecb690c0be12d743ce0b1c689ed42480.jpg);
+    }
+    
     header{
         flex-direction: column;
-        
+        text-align: center; /* Isso centraliza o texto dentro da seção */
 
     }
-    main{
-        flex-direction: column;
-    }
-    #lgo{
-        margin-left: 18px;
-    }
-    #nmr-socios{
-        margin-left: 5px;
-        white-space: nowrap;
-        font-size: 18px;
-    }
+
+ 
     #seja-st{
-        font-size: 58px;
-        line-height: 50px;
-        margin-top: 10px;
-        margin-left: -65px;
-        white-space: nowrap;
+        font-size: 60px;
+        text-align: center; /* Isso centraliza o texto dentro da seção */
     }
-
-    #menu{
-        margin-left: -6px;
+   
+    .titulo-eformu {
+        
+        margin: 0 auto; /* Isso centraliza horizontalmente o conteúdo da seção */
+        text-align: center; /* Isso centraliza o texto dentro da seção */
     }
-    #cadastro{
-        margin-top: -270px;
-
     
+
+    .formu-texto {
+        margin: 0 auto; /* Isso centraliza horizontalmente o conteúdo da seção */
+        
+        margin-bottom: 15px;
+    }
+    
+    .formu_btn {
+        
+        margin-top: 15px;
     }
 
 
-    img{
-        margin-top: 70px;
-    }
+
 
   
+}
+
+@media screen and (max-width: 1400px){
+    .titulo-eformu{
+        margin-top: 120px;
+    }
 }
