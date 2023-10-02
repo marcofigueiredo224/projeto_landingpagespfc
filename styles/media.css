@@ -31,12 +31,18 @@
         margin-bottom: 15px;
     }
     
+    
     .formu_btn {
         
         margin-top: 15px;
+        
     }
-
-
+   
+    .formu_btn:hover {
+        
+        color: white;
+        background-color: rgb(178,34,34);
+    }
 
 
   
@@ -57,5 +63,19 @@
         margin-right: 2%;
     }
 
+    .formu_btn {
+        
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    .formu_btn:hover {
+        
+        color: white;
+        background-color: rgb(178,34,34);
+    }
+
+    #cadastro{
+        margin-top: -30px;
+    }
   
 }
