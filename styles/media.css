@@ -1,7 +1,5 @@
 @media screen and (max-width: 760px){
-    body{
-        background-image: url(../components/img/ecb690c0be12d743ce0b1c689ed42480.jpg);
-    }
+    
     
     header{
         flex-direction: column;
@@ -14,6 +12,7 @@
     #seja-st{
         font-size: 60px;
         text-align: center; 
+        
 
     }
    
@@ -21,9 +20,16 @@
         
         margin: 0 auto; /* Isso centraliza horizontalmente o conteúdo da seção */
         text-align: center; 
+      
+        background-size: 100% auto; 
+        
+        
+        
+        
         
     }
-    
+
+   
 
     .formu-texto {
         margin: 0 auto; /* Isso centraliza horizontalmente o conteúdo da seção */
@@ -44,6 +50,17 @@
         background-color: rgb(178,34,34);
     }
 
+    .planos-titulo-subtiitulo{
+        margin-top: -150px;
+    }
+    
+    .planos-titulo-subtiitulo{
+        line-height: 20px;
+    }
+
+    .plano-01{
+        margin-bottom: 100px;
+    }
 
   
 }
@@ -78,4 +95,22 @@
         margin-top: -30px;
     }
   
+}
+
+
+@media screen and (max-width: 375px){
+   
+    .planos-titulo{
+        line-height: 35px;
+    }
+        
+    }
+
+@media screen and (min-width: 376px) and (max-width: 430px) {
+    .planos {
+        background-image: url(../components/img/bg-planos.png);
+        background-size: cover; /* Esta propriedade faz a imagem de fundo cobrir a tela inteira */
+        background-position: center; /* Isso centraliza a imagem de fundo */
+        background-repeat: no-repeat; /* Evita repetição da imagem de fundo */
+    }
 }

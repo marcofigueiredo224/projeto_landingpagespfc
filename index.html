@@ -9,7 +9,7 @@
     <title>Landing Page São Paulo FC</title>
 </head>
 <body>
-    <header>
+    <header >
         <div id="logo-socio">
             <img src="./components/img/spfc-st-logo.png" alt="logo-sociotorcedor" id="lgo">
         </div>
@@ -17,7 +17,7 @@
         <p id="nmr-socios">Somos <span id="nmr-real">63.286</span> Sócios Torcedores</p>
 
         <ul id="menu">
-            <a href="#"><li>Planos</li></a>
+            <a href="#planos"><li>Planos</li></a>
             <a href="#"><li>Sobre</li></a>
             <a href="#" id="cadastrese-btn"><li>Já é sócio?</li></a>
             
@@ -25,17 +25,92 @@
     </header>
 
     <section class="titulo-eformu">
-        <div>
+        <div class="seja-st">
             <h1 id="seja-st">SEJA SÓCIO<br>TORCEDOR</h1>
         </div>
         <div id="formu">
             <form id="cadastro">
                 <input class="formu-texto" type="text" required placeholder="Nome Completo*">
                 <input class="formu-texto" type="email" required placeholder="E-mail*">
+                <input class="formu-texto" type="password" required placeholder="Senha*">
                 <input class="formu_btn" type="submit" value="Cadastrar">
             </form>
         </div>
     </section>
+
+    <section class="planos" id="planos">
+        <div class="planos-titulo-subtiitulo">
+            <h2 class="planos-titulo">ESCOLHA SEU PLANO!</h2>
+            <p class="planos-subtitulo">QUANTO MAIOR O VALOR, MAIORES SUAS RECOMPENSAS E MAIS VOCÊ CONTRIBUI COM O SPFC!
+            </p>
+        </div>
+        
+        <div class="plano-01 planos-info">     
+            <img class="plano-img" src="./components/img/icon-vermelho.png">
+            <h2 class="planos-textos-titulo">VERMELHO</h2>
+            <div class="plano01-textos">
+                <p>
+                    <span class="porcentagem-texto"><b>50%</b></span> de desconto na arquibancada<br>
+                    Welcome kit digital Vermelho de itens exclusivos no plano anual<br>
+                    Nível 1 de acúmulo de pontos para trocar por experiências<br>
+                    Prioridade 1 na compra de ingressos<br>
+                    1 ST Infantil dependente<br>
+                </p>
+            </div>
+            <span class="span-preco">
+                <span class="preco">R$ 18,99 / mês</span>
+            </span>
+            <div class="preco-assinar">
+                <input class="preco-assinar-btn" type="button" value="ASSINAR">
+            </div>
+        </div>
+            
+            <div class="plano-01 planos-info">
+                <img class="plano-img" src="./components/img/icon-branco.png">
+                <h2 class="planos-textos-titulo">BRANCO</h2>
+                <div class="plano01-textos">
+        
+                    <p>
+                        <span class="porcentagem-texto"><b>70%</b></span> de desconto na arquibancada<br>
+                        Welcome kit digital Vermelho de itens exclusivos no plano anual<br>
+                        Nível 2 de acúmulo de pontos para trocar por experiências<br>
+                        Prioridade 4 na compra de ingressos<br>
+                        1 ST Infantil dependente<br>
+                        1 convidado(a)*<br>
+                    </p>
+                </div>
+                <span class="span-preco">
+                    <span class="preco">R$ 35,99 / mês</span>
+                </span>
+                <div class="preco-assinar2">
+                    <input class="preco-assinar-btn" type="button" value="ASSINAR">
+                </div>
+            </div>
+            
+            <div class="plano-01 planos-info">
+                <img class="plano-img" src="./components/img/icon-preto.png">
+                <h2 class="planos-textos-titulo">PRETO</h2>
+                <div class="plano01-textos">
+        
+                    <p>
+                        <span class="porcentagem-texto"><b>70%</b></span>de desconto na arquibancada<br>
+                        <span class="porcentagem-texto"><b>70%</b></span>de desconto na cadeira especial<br>
+                        Welcome kit digital Vermelho de itens exclusivos no plano anual<br>
+                        Nível 3 de acúmulo de pontos para trocar por experiências<br>
+                        Prioridade 3 na compra de ingressos<br>
+                        2 ST Infantil dependente<br>
+                        2 convidado(as)*<br>
+                    </p>
+                </div>
+                <span class="span-preco">
+                    <span class="preco">R$ 74,99 / mês</span>
+                </span>
+                <div class="preco-assinar3">
+                <input class="preco-assinar-btn" type="button" value="ASSINAR">
+            </div>
+            </div>
+    </section>
+    
 
 
 </body>

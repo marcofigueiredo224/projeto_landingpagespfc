@@ -1,18 +1,22 @@
-body{
-    background-color: rgb(178,34,34);
+@import url(planos.css);
+
+body {
+    background-color: #E8E8E8;
     color: white;
     font-family: poppinsbold;
-    margin: 0 auto;
+    margin: 0;
     padding: 15px;
     background-image: url("/components/img/Captura\ de\ tela\ 2023-09-15\ 221921.png");
-    background-size: cover; /* Isso ajustará a imagem para cobrir toda a área do elemento pai */
-    background-repeat: no-repeat; /* Isso evita que a imagem de fundo se repita */
-
-    
+    background-size: 100% auto; /* Define a largura da imagem para cobrir toda a largura da tela */
+    background-repeat: no-repeat;
+   
 }
+
+
 
 header{
     background-color: white;
+    background-image: url(../components/img/bg-planos.png);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -110,9 +114,7 @@ a:hover{
      
 }
 
-.cadastro{
-    
-}
+
 
 
 
